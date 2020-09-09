@@ -15,6 +15,11 @@
 		4369DDBD2508FEC600A19362 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4369DDBB2508FEC600A19362 /* LaunchScreen.storyboard */; };
 		4369DDC82508FEC700A19362 /* topitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369DDC72508FEC700A19362 /* topitoTests.swift */; };
 		4369DDD32508FEC700A19362 /* topitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369DDD22508FEC700A19362 /* topitoUITests.swift */; };
+		4369DDE1250901A700A19362 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369DDE0250901A700A19362 /* SecondViewController.swift */; };
+		4369DDE3250915A900A19362 /* AnimalEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369DDE2250915A900A19362 /* AnimalEnum.swift */; };
+		4369DDE52509164100A19362 /* SecondQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369DDE42509164100A19362 /* SecondQuestionViewController.swift */; };
+		4369DDE72509167400A19362 /* ThirdQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369DDE62509167400A19362 /* ThirdQuestionViewController.swift */; };
+		4369DDE9250916A600A19362 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369DDE8250916A600A19362 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		4369DDCE2508FEC700A19362 /* topitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = topitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4369DDD22508FEC700A19362 /* topitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topitoUITests.swift; sourceTree = "<group>"; };
 		4369DDD42508FEC700A19362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4369DDE0250901A700A19362 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4369DDE2250915A900A19362 /* AnimalEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalEnum.swift; sourceTree = "<group>"; };
+		4369DDE42509164100A19362 /* SecondQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondQuestionViewController.swift; sourceTree = "<group>"; };
+		4369DDE62509167400A19362 /* ThirdQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdQuestionViewController.swift; sourceTree = "<group>"; };
+		4369DDE8250916A600A19362 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				4369DDB92508FEC600A19362 /* Assets.xcassets */,
 				4369DDBB2508FEC600A19362 /* LaunchScreen.storyboard */,
 				4369DDBE2508FEC600A19362 /* Info.plist */,
+				4369DDE0250901A700A19362 /* SecondViewController.swift */,
+				4369DDE2250915A900A19362 /* AnimalEnum.swift */,
+				4369DDE42509164100A19362 /* SecondQuestionViewController.swift */,
+				4369DDE62509167400A19362 /* ThirdQuestionViewController.swift */,
+				4369DDE8250916A600A19362 /* ResultViewController.swift */,
 			);
 			path = topito;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4369DDE1250901A700A19362 /* SecondViewController.swift in Sources */,
 				4369DDB52508FEC300A19362 /* ViewController.swift in Sources */,
+				4369DDE72509167400A19362 /* ThirdQuestionViewController.swift in Sources */,
+				4369DDE9250916A600A19362 /* ResultViewController.swift in Sources */,
 				4369DDB12508FEC300A19362 /* AppDelegate.swift in Sources */,
+				4369DDE3250915A900A19362 /* AnimalEnum.swift in Sources */,
+				4369DDE52509164100A19362 /* SecondQuestionViewController.swift in Sources */,
 				4369DDB32508FEC300A19362 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
